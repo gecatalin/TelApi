@@ -1,5 +1,9 @@
 {
-    "hash": "d6469569ddbac27fe3dc35f90f290b54",
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "ca5b345012373db635b006b7be8f927f",
     "packages": [
         {
             "name": "Telapi/telapi-php",

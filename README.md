@@ -1,4 +1,4 @@
-telapi
+composer-telapi
 ======
 
-silex adaptation
+composer package for telapi
