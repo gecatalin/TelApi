@@ -10,6 +10,18 @@ First install composer (http://getcomposer.org/).
 Create `composer.json` in project root:
 
     {
+    "repositories": [{
+    "type": "package",
+    "package": {
+        "name": "telapi/telapi-php",
+        "version": "dev-master",
+        "source": {
+                "url": "https://github.com/TelAPI/telapi-php.git",
+            "type": "git",
+        "reference": "master"
+        }
+        }
+    }],
     	"require": {
         	"gecatalin/telapi": "dev-master"
     	}
