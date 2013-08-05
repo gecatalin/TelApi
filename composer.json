@@ -5,7 +5,7 @@
     "repositories": [{
     "type": "package",
     "package": {
-        "name": "TelApi/telapi-php",
+        "name": "telapi/telapi-php",
         "version": "dev-master",
         "source": {
                 "url": "https://github.com/TelAPI/telapi-php.git",
@@ -16,7 +16,7 @@
     }],
     "require": {
         "php": ">=5.3.3",
-    "TelApi/telapi-php": "dev-master"
+    "telapi/telapi-php": "dev-master"
     },
     "autoload": {
         "psr-0": {"TelApi\\": "src/Gecatalin"}
