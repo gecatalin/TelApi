@@ -24,7 +24,7 @@ Autoloading:
 
 	require 'vendor/autoload.php';
 	use Gecatalin\TelApi\TelApi;
-    use Gecatalin\TelApi\TelApi_InboundXML;
+        use Gecatalin\TelApi\TelApi_InboundXML;
 
 
 
@@ -37,7 +37,6 @@ use Gecatalin\TelApi\TelApi;
 use Gecatalin\TelApi\TelApi_InboundXML;
 
 $telapi = new TelApi(array('account_sid'=>'','auth_token'=>''));
-print_r(get_class_methods($telapi));
 $call = $telapi->create('calls', array(
     'From' => '40723211111',
     'To' => '40700000000',
