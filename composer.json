@@ -19,6 +19,6 @@
     "TelApi/telapi-php": "dev-master"
     },
     "autoload": {
-        "psr-0": {"Gecatalin\\": "src/"}
+        "psr-0": {"TelApi\\": "src/Gecatalin"}
     }
 }

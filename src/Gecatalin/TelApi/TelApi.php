@@ -1,5 +1,5 @@
 <?php
-namespace Gecatalin\TelApi;
+namespace TelApi;
 require_once __DIR__.'/../../../vendor/TelApi/telapi-php/library/TelApi/Exception.php';
 
 /** @see TelApi_Schemas */
