@@ -1,0 +1,32 @@
+{
+    "hash": "d6469569ddbac27fe3dc35f90f290b54",
+    "packages": [
+        {
+            "name": "Telapi/telapi-php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TelAPI/telapi-php.git",
+                "reference": "master"
+            },
+            "type": "library",
+            "time": "2013-03-29 18:45:15"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "telapi/telapi-php": 20
+    },
+    "platform": {
+        "php": ">=5.3.3"
+    },
+    "platform-dev": [
+
+    ]
+}
