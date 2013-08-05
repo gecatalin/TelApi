@@ -23,8 +23,8 @@ Install via composer:
 Autoloading:
 
 	require 'vendor/autoload.php';
-	use Gecatalin\TelApi\TelApi;
-	use Gecatalin\TelApi\TelApi_InboundXML;
+	use TelApi\TelApi;
+	use TelApi\TelApi_InboundXML;
 
 
 
@@ -33,8 +33,8 @@ example
 ```
 <?php
 require 'vendor/autoload.php';
-use Gecatalin\TelApi\TelApi;
-use Gecatalin\TelApi\TelApi_InboundXML;
+use TelApi\TelApi;
+use TelApi\TelApi_InboundXML;
 
 $telapi = new TelApi(array('account_sid'=>'','auth_token'=>''));
 $call = $telapi->create('calls', array(
