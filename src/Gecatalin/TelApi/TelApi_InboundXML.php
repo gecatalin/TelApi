@@ -1,3 +1,3 @@
 <?php
 namespace Telapi;
-require_once "../../vendor/Telapi/telapi-php/library/TelApi/InboundXML.php";
+require_once __DIR__."/../../../telapi-php/library/TelApi/InboundXML.php";
