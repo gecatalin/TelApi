@@ -4,7 +4,7 @@
     "homepage": "",
     "require": {
         "php": ">=5.3.3",
-        "gecatalin/telapi-php": "dev-patch-2"    
+        "gecatalin/telapi-php": "dev-master"    
     },
     "autoload": {
         "psr-0": {"TelApi\\": "src/Gecatalin"}
