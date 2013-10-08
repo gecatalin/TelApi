@@ -22,5 +22,5 @@ require_once __DIR__.'/../../../../telapi-php/library/TelApi/Sdk.php';
 
 /** @see TelApi_Client **/
 require_once __DIR__.'/../../../../telapi-php/library/TelApi/Connect.php';
-class TelApiInbound extends TelApi_InboundXML{
+class TelApiInbound extends \TelApi_InboundXML{
 }
